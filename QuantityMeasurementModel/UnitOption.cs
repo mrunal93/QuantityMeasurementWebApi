@@ -1,0 +1,14 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace QuantityMeasurementModelLayer
+{
+    public enum UnitOption
+    {
+        LITRE_TO_GALLON, GALLON_TO_LITRE, LITER_TO_MILILITRE, MILILITER_TO_LITER,
+        KILOGRSM_TO_GRAM, GRAM_TO_KILOGRAM, TONNE_TO_KILOGRAM, KILOGRAM_TO_TONE,
+        FAHRENHIET_TO_CELCIUS, CELCIUS_TO_FAHRENHIET,
+        FEET_TO_INCH, INCH_TO_FEET, INCH_TO_CENTIMETER, CENTIMETER_TO_INCH, YARD_TO_FEET, FEET_TO_YARD
+    }
+}
